@@ -472,3 +472,57 @@ header .song_side nav .user img {
     border-radius: 50%;
     box-shadow: 2px 2px 8px #131312;
 }
+
+header .song_side .content {
+    width: 90%;
+    height: 30%;
+    margin: auto;
+    /*border: solid 1px aliceblue;*/
+    padding-top: 20px;
+}
+
+header .song_side .content h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+header .song_side .content p {
+    font-size: 11px;
+    font-weight: 500;
+    color: beige;
+    margin: 5px;
+}
+
+header .song_side .content .buttons {
+    margin-top: 15px;
+}
+
+header .song_side .content .buttons button {
+    width: 130px;
+    height: 30px;
+    border: solid 2px #36e2ec;
+    outline: none;
+    border-radius: 20px;
+    background: #5adae0;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+header .song_side .content .buttons button:hover {
+    border: solid 2px #36e2ec;
+    background: none;
+    color: aqua;
+}
+
+header .song_side .content .buttons button:nth-child(2) {
+    border: solid 2px #36e2ec;
+    background: none;
+    color: aqua;
+}
+
+header .song_side .content .buttons button:nth-child(2):hover {
+    border: solid 2px #36e2ec;
+    background: #36e2ec;
+    color: aliceblue;
+}
