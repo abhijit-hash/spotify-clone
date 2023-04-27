@@ -386,7 +386,7 @@ header .song_side nav {
     width: 90%;
     height: 10%;
     margin: auto;
-    border: solid 1px aliceblue;
+    /*border: solid 1px aliceblue;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -455,4 +455,20 @@ header .song_side nav .search input {
     padding: 0px 10px;
     color: deeppink;
     font-size: 12px;
+}
+
+header .song_side nav .user {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+header .song_side nav .user img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px #131312;
 }
