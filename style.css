@@ -382,6 +382,15 @@ header .song_side {
     z-index: 2;
 }
 
+header .song_side::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 1000px;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/bg.jpg);
+}
+
 header .song_side nav {
     width: 90%;
     height: 10%;
@@ -525,4 +534,12 @@ header .song_side .content .buttons button:nth-child(2):hover {
     border: solid 2px #36e2ec;
     background: #36e2ec;
     color: aliceblue;
+}
+
+header .song_side .popular_song {
+    width: 90%;
+    height: auto;
+    border: solid 1px whitesmoke;
+    margin: auto;
+    margin-top: 15px;
 }
