@@ -543,3 +543,19 @@ header .song_side .popular_song {
     margin: auto;
     margin-top: 15px;
 }
+
+header .song_side .popular_song .song {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .song_side .popular_song .song .bi {
+    color: aqua;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+header .song_side .popular_song .song .bi:hover {
+    color: whitesmoke;
+}
